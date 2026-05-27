@@ -144,7 +144,7 @@ int main(){
             cin >> shift;
 
             cout << "==================" << '\n';
-            cout << "Hasil : " << caesarCipherEncrypt(input_caesar_enc, shift) << endl;
+            cout << "Hasil : " << caesarCipherEncrypt(input_caesar_enc, shift) << '\n';
         }
         //Atbash cipher encrypt
         else if (input_enc == 3){
@@ -154,7 +154,7 @@ int main(){
             getline(cin, input_atbash_enc);
 
             cout << "==================" << '\n';
-            cout << "Hasil : " << atbashCipher(input_atbash_enc) << endl;
+            cout << "Hasil : " << atbashCipher(input_atbash_enc) << '\n';
         }
         else {
             cout << "Input Invalid" << '\n';
@@ -233,7 +233,7 @@ int main(){
             getline(cin, input_atbash_enc);
 
             cout << "==================" << '\n';
-            cout << "Hasil : " << atbashCipher(input_atbash_enc) << endl;
+            cout << "Hasil : " << atbashCipher(input_atbash_enc) << '\n';
         }
         else {
             cout << "Input Invalid" << '\n';
